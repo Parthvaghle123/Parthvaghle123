@@ -1,0 +1,7 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Keep private raw PDFs containing phone numbers local
+*.pdf
+

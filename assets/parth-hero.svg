@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 300" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10070C"/>
+      <stop offset="50%" stop-color="#190B12"/>
+      <stop offset="100%" stop-color="#10070C"/>
+    </linearGradient>
+
+    <!-- Fine Technical Grid -->
+    <pattern id="tech-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#701A3D" stroke-width="0.7" stroke-opacity="0.18"/>
+    </pattern>
+
+    <!-- Moving Glow 1 (Upper Right) -->
+    <radialGradient id="glow-1" cx="75%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#451126" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#10070C" stop-opacity="0"/>
+      <animate attributeName="cx" values="75%;68%;75%" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="35%;48%;35%" dur="9s" repeatCount="indefinite"/>
+    </radialGradient>
+
+    <!-- Moving Glow 2 (Lower Left) -->
+    <radialGradient id="glow-2" cx="22%" cy="75%" r="38%">
+      <stop offset="0%" stop-color="#451126" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#190B12" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#10070C" stop-opacity="0"/>
+      <animate attributeName="r" values="35%;42%;35%" dur="7s" repeatCount="indefinite"/>
+    </radialGradient>
+
+    <!-- Hero Title Gradient -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8F0F3"/>
+      <stop offset="60%" stop-color="#E5B5C7"/>
+      <stop offset="100%" stop-color="#C77B9B"/>
+    </linearGradient>
+
+    <!-- Rose Accent Gradient -->
+    <linearGradient id="rose-line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.2"/>
+      <stop offset="25%" stop-color="#C77B9B"/>
+      <stop offset="70%" stop-color="#E5B5C7"/>
+      <stop offset="100%" stop-color="#701A3D" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Scanning Light Beam on Underline -->
+    <linearGradient id="scan-beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#451126" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#C77B9B" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#F8F0F3" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#C77B9B" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#451126" stop-opacity="0"/>
+      <animate attributeName="x1" values="-100%;150%" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;250%" dur="3.8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Subtle Glow Filter for Accents -->
+    <filter id="accent-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    .font-mono {
+      font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, Monaco, Consolas, monospace;
+    }
+    .orbit-slow {
+      transform-origin: 685px 150px;
+      animation: rotateOrbit 26s linear infinite;
+    }
+    .orbit-mid {
+      transform-origin: 685px 150px;
+      animation: rotateOrbitRev 15s linear infinite;
+    }
+    @keyframes rotateOrbit {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes rotateOrbitRev {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+  </style>
+
+  <!-- Card Base -->
+  <rect width="840" height="300" rx="16" fill="url(#bg-grad)" stroke="#451126" stroke-width="1.5"/>
+
+  <!-- Ambient Shifting Glows -->
+  <rect width="840" height="300" rx="16" fill="url(#glow-1)"/>
+  <rect width="840" height="300" rx="16" fill="url(#glow-2)"/>
+
+  <!-- Technical Grid Overlay -->
+  <rect width="840" height="300" rx="16" fill="url(#tech-grid)"/>
+
+  <!-- Subtle Animated Wave/Circuit Path -->
+  <path d="M 40 226 C 180 206, 260 248, 410 220 C 530 196, 610 236, 790 216" 
+        fill="none" 
+        stroke="url(#rose-line-grad)" 
+        stroke-width="1.4" 
+        stroke-dasharray="6 8" 
+        opacity="0.45">
+    <animate attributeName="stroke-dashoffset" values="0;120" dur="12s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Restrained Orbital Geometry (Right Side) -->
+  <g class="orbit-slow">
+    <ellipse cx="685" cy="150" rx="90" ry="90" fill="none" stroke="#701A3D" stroke-width="1" stroke-dasharray="3 7" stroke-opacity="0.55"/>
+    <circle cx="685" cy="60" r="3" fill="#E5B5C7" opacity="0.85"/>
+    <circle cx="775" cy="150" r="2.2" fill="#C77B9B" opacity="0.7"/>
+  </g>
+
+  <g class="orbit-mid">
+    <ellipse cx="685" cy="150" rx="64" ry="38" fill="none" stroke="#C77B9B" stroke-width="1.2" stroke-dasharray="5 5" stroke-opacity="0.45"/>
+    <circle cx="621" cy="150" r="3.2" fill="#F8F0F3" opacity="0.9"/>
+  </g>
+
+  <!-- Orbital Core Node -->
+  <circle cx="685" cy="150" r="16" fill="#190B12" stroke="#701A3D" stroke-width="1.5"/>
+  <circle cx="685" cy="150" r="8" fill="#451126" stroke="#C77B9B" stroke-width="1.2">
+    <animate attributeName="r" values="7.5;9;7.5" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="1;1.8;1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="685" cy="150" r="3.5" fill="#F8F0F3">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Editorial Top Badge -->
+  <rect x="46" y="38" width="232" height="25" rx="12.5" fill="#190B12" stroke="#701A3D" stroke-width="1"/>
+  <circle cx="60" cy="50.5" r="4" fill="#C77B9B">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="72" y="54" class="font-mono" font-size="10.5" font-weight="600" fill="#E5B5C7" letter-spacing="1.2">SYSTEM // MERN &amp; FLUTTER</text>
+
+  <!-- Candidate Name -->
+  <text x="46" y="112" class="font-sans" font-size="37" font-weight="800" fill="url(#title-grad)" letter-spacing="0.4">PARTH VAGHELA</text>
+
+  <!-- Role Subtitle -->
+  <text x="46" y="146" class="font-sans" font-size="16" font-weight="500" fill="#E5B5C7" letter-spacing="0.3">Full-Stack Web &amp; Mobile Engineer • Cross-Platform Specialist</text>
+
+  <!-- Glowing Underline Track & Scan Light -->
+  <line x1="46" y1="166" x2="520" y2="166" stroke="#451126" stroke-width="2"/>
+  <line x1="46" y1="166" x2="520" y2="166" stroke="url(#scan-beam)" stroke-width="2.2" filter="url(#accent-glow)"/>
+
+  <!-- Core Competencies Line -->
+  <text x="46" y="196" class="font-sans" font-size="13" font-weight="500" fill="#C77B9B" letter-spacing="0.2">
+    Next.js  •  React.js  •  TypeScript  •  Node.js  •  MongoDB  •  Flutter  •  Dart  •  Firebase
+  </text>
+
+  <!-- Decorative Corner Accents -->
+  <path d="M 16 28 L 16 16 L 28 16" fill="none" stroke="#701A3D" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 824 28 L 824 16 L 812 16" fill="none" stroke="#701A3D" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 16 272 L 16 284 L 28 284" fill="none" stroke="#701A3D" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 824 272 L 824 284 L 812 284" fill="none" stroke="#701A3D" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Editorial Metadata / Coordinate Bar -->
+  <line x1="46" y1="244" x2="794" y2="244" stroke="#451126" stroke-width="0.75" stroke-dasharray="4 4" opacity="0.6"/>
+  <text x="46" y="266" class="font-mono" font-size="10.5" fill="#C77B9B" opacity="0.85" letter-spacing="0.8">EXP: KHODAL TECH INTERN</text>
+  <text x="310" y="266" class="font-mono" font-size="10.5" fill="#C77B9B" opacity="0.85" letter-spacing="0.8">DEG: BCA @ VNSGU (CGPA 7.5)</text>
+  <text x="680" y="266" class="font-mono" font-size="10.5" fill="#E5B5C7" font-weight="600" letter-spacing="1">STATUS: ACTIVE</text>
+</svg>
