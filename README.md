@@ -29,6 +29,10 @@
   <img src="assets/project-flipix.svg" width="100%" alt="Flipix — Real-Time Multiplayer Memory Card Game: Flutter, Dart, Firebase Cloud Firestore.">
 </a>
 
+<a href="https://play.google.com/store/apps/details?id=com.explore.animalsound">
+  <img src="assets/project-animalsounds.svg" width="100%" alt="Explore Animal Sounds — Educational Flutter Mobile App: Flutter, Dart, Firebase, Cloud Firestore, Native Audio Player.">
+</a>
+
 <img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit — The tools I reach for.">
 <img src="assets/tech-constellation-v2.svg" width="100%" alt="Tech stack. Languages: Java (primary), Python, C, C++. AI/ML: LLMs, NLP, Machine Learning, Deep Learning. Frontend: React, JavaScript, HTML, CSS. Backend: Node.js, Express, REST APIs, Microservices, JWT. Data and infrastructure: PostgreSQL, MongoDB, MySQL, Docker, AWS. Tools: Git, GitHub, Postman.">
 
