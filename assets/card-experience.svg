@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="exp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10070C"/>
+      <stop offset="50%" stop-color="#190B12"/>
+      <stop offset="100%" stop-color="#10070C"/>
+    </linearGradient>
+
+    <pattern id="exp-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#701A3D" stroke-width="0.7" stroke-opacity="0.16"/>
+    </pattern>
+
+    <radialGradient id="exp-glow" cx="80%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#451126" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#10070C" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="exp-title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8F0F3"/>
+      <stop offset="60%" stop-color="#E5B5C7"/>
+      <stop offset="100%" stop-color="#C77B9B"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }
+  </style>
+
+  <!-- Container -->
+  <rect width="840" height="220" rx="14" fill="url(#exp-bg)" stroke="#451126" stroke-width="1.5"/>
+  <rect width="840" height="220" rx="14" fill="url(#exp-glow)"/>
+  <rect width="840" height="220" rx="14" fill="url(#exp-grid)"/>
+
+  <!-- Corner Brackets -->
+  <path d="M 14 24 L 14 14 L 24 14" fill="none" stroke="#701A3D" stroke-width="1.5" opacity="0.7"/>
+  <path d="M 826 24 L 826 14 L 816 14" fill="none" stroke="#701A3D" stroke-width="1.5" opacity="0.7"/>
+  <path d="M 14 196 L 14 206 L 24 206" fill="none" stroke="#701A3D" stroke-width="1.5" opacity="0.7"/>
+  <path d="M 826 196 L 826 206 L 816 206" fill="none" stroke="#701A3D" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Section Pill -->
+  <rect x="40" y="24" width="240" height="24" rx="12" fill="#190B12" stroke="#701A3D" stroke-width="1"/>
+  <circle cx="52" cy="36" r="3.5" fill="#C77B9B">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="64" y="39.5" class="font-mono" font-size="10" font-weight="600" fill="#E5B5C7" letter-spacing="1.2">EXPERIENCE // KHODAL TECH</text>
+
+  <!-- Role Title & Organization -->
+  <text x="40" y="80" class="font-sans" font-size="20" font-weight="700" fill="url(#exp-title-grad)">
+    MERN Stack &amp; Flutter Developer Intern
+  </text>
+  <text x="40" y="104" class="font-sans" font-size="13" font-weight="500" fill="#E5B5C7">
+    Khodal Tech • On-site • March 2026 – Present
+  </text>
+
+  <!-- Tools Tag Badge -->
+  <rect x="580" y="70" width="220" height="28" rx="6" fill="#190B12" stroke="#451126" stroke-width="1"/>
+  <text x="690" y="88" class="font-mono" font-size="10.5" font-weight="600" fill="#C77B9B" text-anchor="middle" letter-spacing="0.8">
+    VS CODE • ANTIGRAVITY IDE • GIT
+  </text>
+
+  <!-- Bullet 1 -->
+  <circle cx="48" cy="135" r="3" fill="#C77B9B"/>
+  <text x="62" y="139" class="font-sans" font-size="12.5" fill="#F8F0F3">
+    Developed responsive and scalable web and mobile applications using JavaScript, React.js, Next.js, Node.js, Express.js, MongoDB, Flutter, and Dart.
+  </text>
+
+  <!-- Bullet 2 -->
+  <circle cx="48" cy="165" r="3" fill="#C77B9B"/>
+  <text x="62" y="169" class="font-sans" font-size="12.5" fill="#E5B5C7">
+    Contributed to frontend and backend development, integrated RESTful APIs and databases, implemented authentication features, and fixed bugs.
+  </text>
+
+  <!-- Bottom Divider Line -->
+  <line x1="40" y1="190" x2="800" y2="190" stroke="#451126" stroke-width="0.8" stroke-dasharray="4 4" opacity="0.6"/>
+  <text x="40" y="206" class="font-mono" font-size="9.5" fill="#701A3D" font-weight="600" letter-spacing="0.8">COLLABORATIVE GIT/GITHUB DEVELOPMENT</text>
+  <text x="680" y="206" class="font-mono" font-size="9.5" fill="#E5B5C7" font-weight="600" letter-spacing="0.8">STATUS: ACTIVE INTERNSHIP</text>
+</svg>

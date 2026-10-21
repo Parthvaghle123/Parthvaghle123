@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 210" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sum-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10070C"/>
+      <stop offset="50%" stop-color="#190B12"/>
+      <stop offset="100%" stop-color="#10070C"/>
+    </linearGradient>
+
+    <pattern id="sum-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#701A3D" stroke-width="0.7" stroke-opacity="0.16"/>
+    </pattern>
+
+    <radialGradient id="sum-glow" cx="80%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#451126" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#10070C" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="sum-title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8F0F3"/>
+      <stop offset="60%" stop-color="#E5B5C7"/>
+      <stop offset="100%" stop-color="#C77B9B"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }
+  </style>
+
+  <!-- Container -->
+  <rect width="840" height="210" rx="14" fill="url(#sum-bg)" stroke="#451126" stroke-width="1.5"/>
+  <rect width="840" height="210" rx="14" fill="url(#sum-glow)"/>
+  <rect width="840" height="210" rx="14" fill="url(#sum-grid)"/>
+
+  <!-- Corner Brackets -->
+  <path d="M 14 24 L 14 14 L 24 14" fill="none" stroke="#701A3D" stroke-width="1.5" opacity="0.7"/>
+  <path d="M 826 24 L 826 14 L 816 14" fill="none" stroke="#701A3D" stroke-width="1.5" opacity="0.7"/>
+  <path d="M 14 186 L 14 196 L 24 196" fill="none" stroke="#701A3D" stroke-width="1.5" opacity="0.7"/>
+  <path d="M 826 186 L 826 196 L 816 196" fill="none" stroke="#701A3D" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Section Pill -->
+  <rect x="40" y="26" width="230" height="24" rx="12" fill="#190B12" stroke="#701A3D" stroke-width="1"/>
+  <circle cx="52" cy="38" r="3.5" fill="#C77B9B">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="64" y="41.5" class="font-mono" font-size="10" font-weight="600" fill="#E5B5C7" letter-spacing="1.2">SECTION // EXECUTIVE SUMMARY</text>
+
+  <!-- Title -->
+  <text x="40" y="82" class="font-sans" font-size="22" font-weight="700" fill="url(#sum-title-grad)">
+    MERN Stack &amp; Flutter Engineering
+  </text>
+
+  <!-- Summary Paragraph Lines (From Resume) -->
+  <text x="40" y="112" class="font-sans" font-size="13.5" fill="#F8F0F3" opacity="0.95" letter-spacing="0.2">
+    BCA graduate with internship experience in Full Stack Web Development and Flutter Development.
+  </text>
+  <text x="40" y="134" class="font-sans" font-size="13.5" fill="#E5B5C7" letter-spacing="0.2">
+    Skilled in JavaScript, React.js, Next.js, Node.js, Express.js, MongoDB, Flutter, and Dart.
+  </text>
+  <text x="40" y="156" class="font-sans" font-size="13.5" fill="#C77B9B" opacity="0.9" letter-spacing="0.2">
+    Passionate about building responsive, scalable web and mobile apps, solving real-world challenges.
+  </text>
+
+  <!-- Bottom Metadata Line -->
+  <line x1="40" y1="178" x2="800" y2="178" stroke="#451126" stroke-width="0.8" stroke-dasharray="4 4" opacity="0.6"/>
+  <text x="40" y="196" class="font-mono" font-size="10" fill="#701A3D" font-weight="600" letter-spacing="1">LOCATION: SURAT, GUJARAT, IN</text>
+  <text x="420" y="196" class="font-mono" font-size="10" fill="#701A3D" font-weight="600" letter-spacing="1">ROLE: INTERN @ KHODAL TECH</text>
+  <text x="710" y="196" class="font-mono" font-size="10" fill="#E5B5C7" font-weight="600" letter-spacing="1">DEGREE: BCA 2026</text>
+</svg>
