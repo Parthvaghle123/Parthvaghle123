@@ -233,7 +233,7 @@
     <g class="hero-fade d6">
       <line x1="72" y1="446" x2="1128" y2="446" stroke="#C77B9B" stroke-opacity=".14"/>
       <text class="hero-mono" x="72" y="466" font-size="10.5" letter-spacing="2" fill="#B6A3AC">BCA · VEER NARMAD SOUTH GUJARAT UNIV · CGPA 7.5</text>
-      <text class="hero-mono" x="1128" y="466" text-anchor="end" font-size="10.5" letter-spacing="2" fill="#E5B5C7">KHODAL TECH INTERN · LIVE PLAY STORE APPS · FULL STACK</text>
+      <text class="hero-mono" x="1128" y="466" text-anchor="end" font-size="10.5" letter-spacing="2" fill="#E5B5C7">KHODAL TECH · LIVE PLAY STORE APPS · FULL STACK</text>
     </g>
 
     <!-- Frame -->
