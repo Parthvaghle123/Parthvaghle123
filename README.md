@@ -30,7 +30,7 @@
 </a>
 
 <a href="https://play.google.com/store/apps/details?id=com.explore.animalsound">
-  <img src="assets/project-animalsounds.svg" width="100%" alt="Explore Animal Sounds — Educational Flutter Mobile App: Flutter, Dart, Firebase, Cloud Firestore, Native Audio Player.">
+  <img src="assets/project-animalsounds.svg" width="100%" alt="Kiddo Learn &amp; Play — Educational Flutter Mobile App: Flutter, Dart, Firebase, Cloud Firestore, Native Audio Player.">
 </a>
 
 <img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit — The tools I reach for.">
