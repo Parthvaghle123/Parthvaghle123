@@ -1,11 +1,11 @@
-<a href="https://github.com/Parthvaghle123">
+<a href="https://parth-portfoiio.vercel.app/">
   <img src="assets/parth-hero-v3.svg" width="100%" alt="Parth Vaghela — Full-Stack Developer &amp; Flutter Developer. Building scalable web &amp; mobile apps.">
 </a>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/parth1407/"><img src="https://img.shields.io/badge/LinkedIn-parth1407-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0Y4RjBGMyIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDItMy4wNC0xLjg1LTMuMDQtMS44NiAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjhaTTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEzIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTNaTTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDVaTTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1Yy45OCAwIDEuNzgtLjc3IDEuNzgtMS43M1YxLjczQzI0IC43NyAyMy4yIDAgMjIuMjIgMFoiLz48L3N2Zz4=" alt="LinkedIn profile"></a>
   <a href="mailto:vaghelaparth2005@gmail.com"><img src="https://img.shields.io/badge/Email-vaghelaparth2005@gmail.com-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=gmail" alt="Email vaghelaparth2005@gmail.com"></a>
-  <a href="https://github.com/Parthvaghle123"><img src="https://img.shields.io/badge/GitHub-Parthvaghle123-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=github" alt="GitHub profile Parthvaghle123"></a>
+  <a href="https://parth-portfoiio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-parth--portfoiio.vercel.app-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=vercel" alt="Portfolio website"></a>
 </p>
 
 <img src="assets/title-about.svg" width="100%" alt="01 About — Hello, I'm Parth.">
@@ -42,7 +42,9 @@
 <p align="center">
   <a href="mailto:vaghelaparth2005@gmail.com"><img src="https://img.shields.io/badge/Email-vaghelaparth2005@gmail.com-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=gmail" alt="Email vaghelaparth2005@gmail.com"></a>
   <a href="https://www.linkedin.com/in/parth1407/"><img src="https://img.shields.io/badge/LinkedIn-parth1407-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0Y4RjBGMyIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDItMy4wNC0xLjg1LTMuMDQtMS44NiAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjhaTTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEzIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTNaTTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDVaTTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1Yy45OCAwIDEuNzgtLjc3IDEuNzgtMS43M1YxLjczQzI0IC43NyAyMy4yIDAgMjIuMjIgMFoiLz48L3N2Zz4=" alt="LinkedIn profile"></a>
-  <a href="https://github.com/Parthvaghle123"><img src="https://img.shields.io/badge/GitHub-Parthvaghle123-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=github" alt="GitHub profile Parthvaghle123"></a>
+  <a href="https://parth-portfoiio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-parth--portfoiio.vercel.app-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=vercel" alt="Portfolio website"></a>
 </p>
 
-<img src="assets/footer-signature-v2.svg" width="100%" alt="Parth Vaghela — Building systems that can explain themselves.">
+<a href="https://parth-portfoiio.vercel.app/">
+  <img src="assets/footer-signature-v2.svg" width="100%" alt="Parth Vaghela — Building systems that can explain themselves.">
+</a>
