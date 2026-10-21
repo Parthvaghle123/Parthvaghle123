@@ -34,7 +34,7 @@
 </a>
 
 <img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit — The tools I reach for.">
-<img src="assets/tech-constellation-v2.svg" width="100%" alt="Tech stack. Languages: Java (primary), Python, C, C++. AI/ML: LLMs, NLP, Machine Learning, Deep Learning. Frontend: React, JavaScript, HTML, CSS. Backend: Node.js, Express, REST APIs, Microservices, JWT. Data and infrastructure: PostgreSQL, MongoDB, MySQL, Docker, AWS. Tools: Git, GitHub, Postman.">
+<img src="assets/tech-constellation-v3.svg" width="100%" alt="Parth Vaghela Technical Skills: Mobile (Flutter, Dart, Android), Frontend (React.js, Next.js, JavaScript, HTML5, CSS3, Tailwind CSS, ShadCN UI, Bootstrap), Backend (Node.js, Express.js, REST APIs, JWT, RBAC), Database (MongoDB, Firebase, Cloud Firestore), Tools (Git, GitHub, VS Code, Android Studio, Antigravity IDE, Postman), Deployment (Vercel).">
 
 <img src="assets/title-commits.svg" width="100%" alt="05 Commit log">
 <img src="assets/contribution-snake.svg" width="100%" alt="GitHub contribution calendar">
