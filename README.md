@@ -13,13 +13,21 @@
 
 <img src="assets/title-work.svg" width="100%" alt="02 Selected work — Products, not assignments.">
 
-<img src="assets/project-policyguard-v2.svg" width="100%" alt="PolicyGuard AI: LLM Q&A and key-information extraction for 10+ document types across web, extension, mobile and desktop. 500+ documents processed, 92% accuracy, 60% less manual review time. Python, NLP, LLM, REST API.">
+<a href="https://payflow.khodaltech.in/">
+  <img src="assets/project-payflow.svg" width="100%" alt="PayFlow — Money Transfer Management System: Next.js, React, TypeScript, Node.js, Express, MongoDB.">
+</a>
 
-<img src="assets/project-payment-gateway-v2.svg" width="100%" alt="Payment Gateway System: UPI and card payments on a strict processing, success or failed state machine. 1,000+ transactions, 99.8% uptime, 3x throughput. Node.js, Express, PostgreSQL, React, Docker.">
+<a href="https://www.dentcare360.in/">
+  <img src="assets/project-dentcare360.svg" width="100%" alt="Dentcare360 — Role-based Dental Clinic Management System: Next.js, React, Node.js, Express, MongoDB.">
+</a>
 
-<img src="assets/project-starcloset-v2.svg" width="100%" alt="StarCloset, Myntra Bharat AI: team entry to Myntra WeForShe HackerRamp 2026, Top 100. A rules-first, explainable fashion recommender that understands Hinglish occasions. React 19, TypeScript, Go, PostgreSQL, Redis, optional Gemini.">
+<a href="https://play.google.com/store/apps/details?id=in.khodal.smartcalc">
+  <img src="assets/project-smartcalc.svg" width="100%" alt="SmartCalc — Financial Calculator Mobile App: Flutter, Dart, Firebase, Cloud Firestore.">
+</a>
 
-<img src="assets/project-multitenant-saas-v2.svg" width="100%" alt="Multi-Tenant SaaS Platform: tenant-scoped middleware and four-level JWT/RBAC. 50+ concurrent tenants, zero unauthorised-access incidents, setup under 2 minutes. Node.js, React, PostgreSQL, Docker Compose.">
+<a href="https://play.google.com/store/apps/details?id=in.khodal.memorynova">
+  <img src="assets/project-flipix.svg" width="100%" alt="Flipix — Real-Time Multiplayer Memory Card Game: Flutter, Dart, Firebase Cloud Firestore.">
+</a>
 
 <img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit — The tools I reach for.">
 <img src="assets/tech-constellation-v2.svg" width="100%" alt="Tech stack. Languages: Java (primary), Python, C, C++. AI/ML: LLMs, NLP, Machine Learning, Deep Learning. Frontend: React, JavaScript, HTML, CSS. Backend: Node.js, Express, REST APIs, Microservices, JWT. Data and infrastructure: PostgreSQL, MongoDB, MySQL, Docker, AWS. Tools: Git, GitHub, Postman.">

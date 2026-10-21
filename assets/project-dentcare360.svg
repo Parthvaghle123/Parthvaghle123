@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="dc-t">
+  <title id="dc-t">Dentcare360: Role-based dental clinic management platform.</title>
+  <defs>
+    <linearGradient id="dc-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/>
+    </linearGradient>
+    <radialGradient id="dc-glow" cx="82%" cy="30%" r="55%">
+      <stop offset="0" stop-color="#701A3D" stop-opacity=".7"/><stop offset="1" stop-color="#451126" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dc-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#C77B9B" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="dc-glowf" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="dc-clip"><rect width="1200" height="370" rx="18"/></clipPath>
+    <linearGradient id="dc-trace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F0F3"/><stop offset=".45" stop-color="#E5B5C7"/><stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .dc-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .dc-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .dc-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .dc-in { animation: dc-in 1.2s cubic-bezier(.16,1,.3,1) both; }
+    .dc-d1 { animation-delay: .15s; } .dc-d2 { animation-delay: .4s; }
+    .dc-chip { animation: dc-chip .7s cubic-bezier(.34,1.56,.64,1) both; }
+    @keyframes dc-chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .dc-draw { stroke-dasharray: 600; stroke-dashoffset: 600; animation: dc-draw 2s cubic-bezier(.65,0,.35,1) .5s forwards; }
+    @keyframes dc-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes dc-draw { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .dc-in, .dc-chip { animation: none; } .dc-draw { animation: none; stroke-dashoffset: 0; } }
+    .dc-trace { stroke-dasharray: 564 3136; stroke-dashoffset: 3700; animation: dc-trace 7s linear infinite; }
+    @keyframes dc-trace { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .dc-trace { display: none; } }
+  </style>
+  <g clip-path="url(#dc-clip)">
+    <rect width="1200" height="370" fill="url(#dc-bg)"/>
+    <rect x="720" width="480" height="370" fill="url(#dc-grid)"/>
+    <rect width="1200" height="370" fill="url(#dc-glow)"/>
+    <g class="dc-in dc-d1">
+      <text class="dc-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#C77B9B">02 · FULL-STACK · HEALTHCARE · 2026</text>
+      <text class="dc-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">Dentcare360</text>
+      <text class="dc-sans" x="56" y="166" font-size="17" fill="#B6A3AC">Role-based dental clinic platform for patients, treatments &amp; billing.</text>
+      <text class="dc-mono" x="56" y="200" font-size="12.5" fill="#E5B5C7"><tspan fill="#C77B9B">BUILT ›</tspan> Patient appointments, consultations, invoices &amp; RBAC clinic admin</text>
+      <line class="dc-draw" x1="56" y1="226" x2="680" y2="226" stroke="#C77B9B" stroke-opacity=".3"/>
+      <g transform="translate(56 266)"><text class="dc-serif" font-size="34" font-weight="300" fill="#F8F0F3">RBAC</text><text class="dc-sans" y="24" font-size="12.5" fill="#B6A3AC">granular role-based permissions</text></g>
+      <g transform="translate(261 266)"><text class="dc-serif" font-size="34" font-weight="300" fill="#F8F0F3">End-to-End</text><text class="dc-sans" y="24" font-size="12.5" fill="#B6A3AC">booking to billing lifecycle</text></g>
+      <g transform="translate(466 266)"><text class="dc-serif" font-size="34" font-weight="300" fill="#F8F0F3">Live</text><text class="dc-sans" y="24" font-size="12.5" fill="#B6A3AC">dentcare360.in</text></g>
+      <g class="dc-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="70" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="dc-mono" x="91" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Next.js</text></g>
+      <g class="dc-chip" style="animation-delay:1.12s"><rect x="134" y="314" width="55" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="dc-mono" x="161" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">React</text></g>
+      <g class="dc-chip" style="animation-delay:1.24s"><rect x="197" y="314" width="86" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="dc-mono" x="240" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">TypeScript</text></g>
+      <g class="dc-chip" style="animation-delay:1.36s"><rect x="291" y="314" width="68" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="dc-mono" x="325" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Node.js</text></g>
+      <g class="dc-chip" style="animation-delay:1.48s"><rect x="367" y="314" width="68" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="dc-mono" x="401" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">MongoDB</text></g>
+      <g class="dc-chip" style="animation-delay:1.60s"><rect x="443" y="314" width="80" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="dc-mono" x="483" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">ShadCN</text></g>
+    </g>
+    <g class="dc-in dc-d2"><g transform="translate(0 35)">
+      <g transform="translate(760 40)" class="dc-mono" font-size="13" text-anchor="middle">
+        <text x="12" y="20" text-anchor="start" font-size="10.5" letter-spacing="2.4" fill="#B6A3AC">PATIENTS · CONSULTATIONS · INVOICES</text>
+        <!-- Isometric Card stack -->
+        <g transform="translate(140 100)">
+          <polygon points="0,30 180,0 240,40 60,70" fill="#27101C" stroke="#C77B9B" stroke-opacity=".3"/>
+          <text x="120" y="38" font-size="11" fill="#B6A3AC">Billing &amp; Invoices</text>
+          <polygon points="0,-10 180,-40 240,0 60,30" fill="#2F1422" stroke="#C77B9B" stroke-opacity=".4"/>
+          <text x="120" y="-2" font-size="11" fill="#E5B5C7">Treatment Plan</text>
+          <polygon points="0,-50 180,-80 240,-40 60,-10" fill="#451126" stroke="#E5B5C7"/>
+          <text x="120" y="-42" font-size="11" fill="#F8F0F3">Patient Portal</text>
+        </g>
+        <text x="12" y="236" text-anchor="start" font-size="10.5" letter-spacing="1.5" fill="#B6A3AC">REST APIs + role-based middleware + hybrid cache</text>
+      </g>
+    </g></g>
+    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#C77B9B" stroke-opacity=".2"/>
+    <rect class="dc-trace" style="animation-delay:-2.5s" x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="url(#dc-trace)" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+</svg>

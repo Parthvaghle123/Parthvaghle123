@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="fl-t">
+  <title id="fl-t">Flipix: Real-time multiplayer memory card game in Flutter and Dart.</title>
+  <defs>
+    <linearGradient id="fl-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/>
+    </linearGradient>
+    <radialGradient id="fl-glow" cx="82%" cy="30%" r="55%">
+      <stop offset="0" stop-color="#701A3D" stop-opacity=".7"/><stop offset="1" stop-color="#451126" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="fl-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#C77B9B" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="fl-glowf" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="fl-clip"><rect width="1200" height="370" rx="18"/></clipPath>
+    <linearGradient id="fl-trace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F0F3"/><stop offset=".45" stop-color="#E5B5C7"/><stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .fl-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .fl-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .fl-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .fl-in { animation: fl-in 1.2s cubic-bezier(.16,1,.3,1) both; }
+    .fl-d1 { animation-delay: .15s; } .fl-d2 { animation-delay: .4s; }
+    .fl-chip { animation: fl-chip .7s cubic-bezier(.34,1.56,.64,1) both; }
+    @keyframes fl-chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .fl-draw { stroke-dasharray: 600; stroke-dashoffset: 600; animation: fl-draw 2s cubic-bezier(.65,0,.35,1) .5s forwards; }
+    @keyframes fl-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes fl-draw { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .fl-in, .fl-chip { animation: none; } .fl-draw { animation: none; stroke-dashoffset: 0; } }
+    .fl-trace { stroke-dasharray: 564 3136; stroke-dashoffset: 3700; animation: fl-trace 7s linear infinite; }
+    @keyframes fl-trace { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .fl-trace { display: none; } }
+  </style>
+  <g clip-path="url(#fl-clip)">
+    <rect width="1200" height="370" fill="url(#fl-bg)"/>
+    <rect x="720" width="480" height="370" fill="url(#fl-grid)"/>
+    <rect width="1200" height="370" fill="url(#fl-glow)"/>
+    <g class="fl-in fl-d1">
+      <text class="fl-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#C77B9B">04 · MOBILE GAME · FLUTTER · 2026</text>
+      <text class="fl-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">Flipix</text>
+      <text class="fl-sans" x="56" y="166" font-size="17" fill="#B6A3AC">Real-time multiplayer memory card matching game with live score sync.</text>
+      <text class="fl-mono" x="56" y="200" font-size="12.5" fill="#E5B5C7"><tspan fill="#C77B9B">BUILT ›</tspan> Firestore multiplayer sync, smooth card flips, Google Sign-In &amp; achievements</text>
+      <line class="fl-draw" x1="56" y1="226" x2="680" y2="226" stroke="#C77B9B" stroke-opacity=".3"/>
+      <g transform="translate(56 266)"><text class="fl-serif" font-size="34" font-weight="300" fill="#F8F0F3">Real-Time</text><text class="fl-sans" y="24" font-size="12.5" fill="#B6A3AC">multiplayer match sync</text></g>
+      <g transform="translate(261 266)"><text class="fl-serif" font-size="34" font-weight="300" fill="#F8F0F3">60 FPS</text><text class="fl-sans" y="24" font-size="12.5" fill="#B6A3AC">smooth 3D card flip animation</text></g>
+      <g transform="translate(466 266)"><text class="fl-serif" font-size="34" font-weight="300" fill="#F8F0F3">Play Store</text><text class="fl-sans" y="24" font-size="12.5" fill="#B6A3AC">in.khodal.memorynova</text></g>
+      <g class="fl-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="70" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="fl-mono" x="91" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Flutter</text></g>
+      <g class="fl-chip" style="animation-delay:1.12s"><rect x="134" y="314" width="55" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="fl-mono" x="161" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Dart</text></g>
+      <g class="fl-chip" style="animation-delay:1.24s"><rect x="197" y="314" width="76" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="fl-mono" x="235" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Firebase</text></g>
+      <g class="fl-chip" style="animation-delay:1.36s"><rect x="281" y="314" width="78" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="fl-mono" x="320" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Firestore</text></g>
+      <g class="fl-chip" style="animation-delay:1.48s"><rect x="367" y="314" width="94" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="fl-mono" x="414" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Google Auth</text></g>
+      <g class="fl-chip" style="animation-delay:1.60s"><rect x="469" y="314" width="65" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="fl-mono" x="501" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">AdMob</text></g>
+    </g>
+    <g class="fl-in fl-d2"><g transform="translate(0 35)">
+      <g transform="translate(760 40)" class="fl-mono" font-size="13" text-anchor="middle">
+        <text x="12" y="20" text-anchor="start" font-size="10.5" letter-spacing="2.4" fill="#B6A3AC">MEMORY MATCHING · LOBBIES · RANKS</text>
+        <!-- Isometric Card Flip Graphic -->
+        <g transform="translate(80 50)">
+          <rect x="0" y="0" width="80" height="120" rx="10" fill="#451126" stroke="#E5B5C7"/>
+          <text x="40" y="70" font-size="32">★</text>
+          <rect x="110" y="0" width="80" height="120" rx="10" fill="#451126" stroke="#E5B5C7"/>
+          <text x="150" y="70" font-size="32">★</text>
+          <path d="M40 140 H150" stroke="#C77B9B" stroke-opacity=".5" stroke-dasharray="3 3"/>
+          <text x="95" y="165" font-size="11" fill="#E5B5C7">Match Found! +100 XP</text>
+        </g>
+        <text x="12" y="236" text-anchor="start" font-size="10.5" letter-spacing="1.5" fill="#B6A3AC">Cloud Firestore real-time snapshots &amp; leaderboard</text>
+      </g>
+    </g></g>
+    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#C77B9B" stroke-opacity=".2"/>
+    <rect class="fl-trace" style="animation-delay:-4.5s" x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="url(#fl-trace)" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+</svg>
