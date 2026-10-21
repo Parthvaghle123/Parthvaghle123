@@ -16,8 +16,8 @@
     <img src="https://img.shields.io/badge/Email-vaghelaparth2005%40gmail.com-701A3D?style=for-the-badge&logo=gmail&logoColor=white" alt="Direct Email" />
   </a>
   &nbsp;
-  <a href="https://github.com/Parthvaghela123">
-    <img src="https://img.shields.io/badge/GitHub-Parthvaghela123-451126?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+  <a href="https://github.com/Parthvaghle123">
+    <img src="https://img.shields.io/badge/GitHub-Parthvaghle123-451126?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
   </a>
 
   <br /><br />
@@ -208,28 +208,28 @@ Every project below reflects verified production code, architectural planning, a
 ## 📊 GitHub Activity & Contribution Graph
 
 <div align="center">
-  <a href="https://github.com/Parthvaghela123">
+  <a href="https://github.com/Parthvaghle123">
     <img 
-      src="https://ghchart.rshah.org/451126/Parthvaghela123" 
+      src="https://ghchart.rshah.org/451126/Parthvaghle123" 
       alt="Parth Vaghela's GitHub Contribution Chart" 
       width="100%" 
     />
   </a>
   <br />
-  <sub><i>Verified GitHub contribution activity for <a href="https://github.com/Parthvaghela123">@Parthvaghela123</a> tinted in signature burgundy (<code>#451126</code>).</i></sub>
+  <sub><i>Verified GitHub contribution activity for <a href="https://github.com/Parthvaghle123">@Parthvaghle123</a> tinted in signature burgundy (<code>#451126</code>).</i></sub>
 </div>
 
 <br />
 
 <div align="center">
   <img 
-    src="https://github-readme-stats.vercel.app/api?username=Parthvaghela123&show_icons=true&title_color=E5B5C7&text_color=F8F0F3&icon_color=C77B9B&bg_color=190B12&border_color=451126&hide_border=false" 
+    src="https://github-readme-stats.vercel.app/api?username=Parthvaghle123&show_icons=true&title_color=E5B5C7&text_color=F8F0F3&icon_color=C77B9B&bg_color=190B12&border_color=451126&hide_border=false" 
     alt="GitHub Overall Stats" 
     height="165"
   />
   &nbsp;
   <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Parthvaghela123&layout=compact&title_color=E5B5C7&text_color=F8F0F3&icon_color=C77B9B&bg_color=190B12&border_color=451126&hide_border=false" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Parthvaghle123&layout=compact&title_color=E5B5C7&text_color=F8F0F3&icon_color=C77B9B&bg_color=190B12&border_color=451126&hide_border=false" 
     alt="Most Used Languages" 
     height="165"
   />
@@ -246,7 +246,7 @@ Every project below reflects verified production code, architectural planning, a
 I am always keen to discuss web and mobile engineering, software architecture, and potential full-time opportunities.
 
 - 💼 **LinkedIn**: [linkedin.com/in/parth1407](https://linkedin.com/in/parth1407)
-- 🐙 **GitHub**: [github.com/Parthvaghela123](https://github.com/Parthvaghela123)
+- 🐙 **GitHub**: [github.com/Parthvaghle123](https://github.com/Parthvaghle123)
 - ✉️ **Direct Email**: [vaghelaparth2005@gmail.com](mailto:vaghelaparth2005@gmail.com)
 - 🌐 **Production Web Apps**: [payflow.khodaltech.in](https://payflow.khodaltech.in) &nbsp;•&nbsp; [dentcare360.in](https://dentcare360.in)
 
