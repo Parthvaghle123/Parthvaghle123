@@ -1,5 +1,5 @@
 <a href="https://github.com/Parthvaghle123">
-  <img src="assets/parth-hero-v2.svg" width="100%" alt="Parth Vaghela — Full-Stack Developer &amp; Flutter Developer. Building scalable web &amp; mobile apps.">
+  <img src="assets/parth-hero-v3.svg" width="100%" alt="Parth Vaghela — Full-Stack Developer &amp; Flutter Developer. Building scalable web &amp; mobile apps.">
 </a>
 
 <p align="center">
