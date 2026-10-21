@@ -11,7 +11,7 @@
 <img src="assets/title-about.svg" width="100%" alt="01 About — Hello, I'm Parth.">
 <img src="assets/about-intro-v2.svg" width="100%" alt="About: Parth Vaghela — Full-Stack Developer &amp; Flutter Developer.">
 
-<img src="assets/title-work.svg" width="100%" alt="02 Selected work — Products, not assignments.">
+<img src="assets/title-work-v2.svg" width="100%" alt="02 Selected work — Products, not assignments.">
 
 <a href="https://payflow.khodaltech.in/">
   <img src="assets/project-payflow.svg" width="100%" alt="PayFlow — Money Transfer Management System: Next.js, React, TypeScript, Node.js, Express, MongoDB.">
@@ -33,13 +33,13 @@
   <img src="assets/project-animalsounds.svg" width="100%" alt="Kiddo Learn &amp; Play — Educational Flutter Mobile App: Flutter, Dart, Firebase, Cloud Firestore, Native Audio Player.">
 </a>
 
-<img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit — The tools I reach for.">
+<img src="assets/title-toolkit-v2.svg" width="100%" alt="03 Toolkit — The tools I reach for.">
 <img src="assets/tech-constellation-v3.svg" width="100%" alt="Parth Vaghela Technical Skills: Mobile (Flutter, Dart, Android), Frontend (React.js, Next.js, JavaScript, HTML5, CSS3, Tailwind CSS, ShadCN UI, Bootstrap), Backend (Node.js, Express.js, REST APIs, JWT, RBAC), Database (MongoDB, Firebase, Cloud Firestore), Tools (Git, GitHub, VS Code, Android Studio, Antigravity IDE, Postman), Deployment (Vercel).">
 
-<img src="assets/title-commits.svg" width="100%" alt="05 Commit log">
+<img src="assets/title-commits-v2.svg" width="100%" alt="04 Commit log">
 <img src="assets/contribution-snake.svg" width="100%" alt="GitHub contribution calendar">
 
-<img src="assets/title-connect.svg" width="100%" alt="07 Connect — Let's build something worth explaining.">
+<img src="assets/title-connect-v2.svg" width="100%" alt="05 Connect — Let's build something worth explaining.">
 
 <p align="center">
   <a href="mailto:vaghelaparth2005@gmail.com"><img src="https://img.shields.io/badge/Email-vaghelaparth2005@gmail.com-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=gmail" alt="Email vaghelaparth2005@gmail.com"></a>
