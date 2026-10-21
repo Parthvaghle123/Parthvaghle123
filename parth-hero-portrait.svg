@@ -181,7 +181,7 @@
       </g>
       <!-- Node labels: the layers I work across -->
       <g class="hero-mono" font-size="10.5" letter-spacing="1.6" fill="#B6A3AC">
-        <g transform="translate(-118 -152)"><circle r="3" fill="#C77B9B"/><text x="10" y="4">LLM</text></g>
+        <g transform="translate(-118 -152)"><circle r="3" fill="#C77B9B"/><text x="10" y="4">FLUTTER</text></g>
         <g transform="translate(150 -96)"><circle r="3" fill="#C77B9B"/><text x="10" y="4">API</text></g>
         <g transform="translate(150 110)"><circle r="3" fill="#C77B9B"/><text x="10" y="4">DATA</text></g>
         <g transform="translate(-158 40)"><circle r="3" fill="#C77B9B"/><text x="-14" y="4" text-anchor="end">UI</text></g>
@@ -200,7 +200,7 @@
       <circle cx="20" cy="17" r="4" fill="#C77B9B">
         <animate attributeName="opacity" values="1;.35;1" dur="2.4s" repeatCount="indefinite"/>
       </circle>
-      <text class="hero-mono" x="34" y="21.5" font-size="12" fill="#B6A3AC">~/parth<tspan fill="#C77B9B"> $ </tspan><tspan fill="#F8F0F3">build --intelligent</tspan></text>
+      <text class="hero-mono" x="34" y="21.5" font-size="12" fill="#B6A3AC">~/parth<tspan fill="#C77B9B"> $ </tspan><tspan fill="#F8F0F3">flutter run --release</tspan></text>
       <rect x="300" y="10" width="7" height="14" fill="#E5B5C7">
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1.1s" repeatCount="indefinite"/>
       </rect>
@@ -209,7 +209,7 @@
     <!-- Eyebrow -->
     <g class="hero-rise d2">
       <line x1="72" y1="136" x2="104" y2="136" stroke="#C77B9B"/>
-      <text class="hero-mono" x="116" y="140" font-size="12.5" letter-spacing="3.4" fill="#C77B9B">AI · ENGINEERING · CREATIVE TECHNOLOGY</text>
+      <text class="hero-mono" x="116" y="140" font-size="12.5" letter-spacing="3.4" fill="#C77B9B">FULL-STACK · FLUTTER · MOBILE &amp; WEB</text>
     </g>
 
     <!-- Name -->
@@ -226,14 +226,14 @@
     <path class="hero-draw" d="M72 346 C 220 340, 420 352, 600 342" fill="none" stroke="url(#hero-rule)" stroke-width="2" stroke-linecap="round" filter="url(#hero-glow)"/>
 
     <!-- Positioning -->
-    <text class="hero-mono hero-rise d5" x="72" y="384" font-size="13" letter-spacing="2.6" fill="#F8F0F3">AI/ML ENGINEER  ·  FULL-STACK DEVELOPER  ·  CREATIVE TECHNOLOGIST</text>
-    <text class="hero-serif hero-rise d6" x="72" y="420" font-size="19" font-style="italic" fill="#B6A3AC">Engineering intelligence. Designing experiences.</text>
+    <text class="hero-mono hero-rise d5" x="72" y="384" font-size="13" letter-spacing="2.6" fill="#F8F0F3">FULL-STACK DEVELOPER  ·  FLUTTER DEVELOPER  ·  MOBILE &amp; WEB</text>
+    <text class="hero-serif hero-rise d6" x="72" y="420" font-size="19" font-style="italic" fill="#B6A3AC">Building scalable web &amp; mobile apps. Designing experiences.</text>
 
     <!-- Meta strip -->
     <g class="hero-fade d6">
       <line x1="72" y1="446" x2="1128" y2="446" stroke="#C77B9B" stroke-opacity=".14"/>
-      <text class="hero-mono" x="72" y="466" font-size="10.5" letter-spacing="2" fill="#B6A3AC">B.TECH AI &amp; ML · ADITYA ENGINEERING COLLEGE · CGPA 9.10</text>
-      <text class="hero-mono" x="1128" y="466" text-anchor="end" font-size="10.5" letter-spacing="2" fill="#E5B5C7">FLIPKART GRiD 7.0 SEMI-FINALIST · MYNTRA HACKERRAMP ’26 TOP 100</text>
+      <text class="hero-mono" x="72" y="466" font-size="10.5" letter-spacing="2" fill="#B6A3AC">BCA · VEER NARMAD SOUTH GUJARAT UNIV · CGPA 7.5</text>
+      <text class="hero-mono" x="1128" y="466" text-anchor="end" font-size="10.5" letter-spacing="2" fill="#E5B5C7">KHODAL TECH INTERN · LIVE PLAY STORE APPS · FULL STACK</text>
     </g>
 
     <!-- Frame -->
