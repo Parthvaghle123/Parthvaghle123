@@ -39,13 +39,6 @@
 <img src="assets/title-commits.svg" width="100%" alt="05 Commit log">
 <img src="assets/contribution-snake.svg" width="100%" alt="GitHub contribution calendar">
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Parthvaghle123&show_icons=true&hide_rank=true&hide_border=true&border_radius=16&bg_color=190B12&title_color=E5B5C7&text_color=B6A3AC&icon_color=C77B9B&custom_title=GitHub%20at%20a%20glance" width="400" alt="GitHub stats for Parthvaghle123">
-</p>
-
-<img src="assets/title-certifications.svg" width="100%" alt="06 Certifications">
-<img src="assets/certifications.svg" width="100%" alt="Certifications">
-
 <img src="assets/title-connect.svg" width="100%" alt="07 Connect — Let's build something worth explaining.">
 
 <p align="center">
