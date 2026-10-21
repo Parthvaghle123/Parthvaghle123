@@ -11,10 +11,7 @@
 <img src="assets/title-about.svg" width="100%" alt="01 About — Hello, I'm Parth.">
 <img src="assets/about-intro-v2.svg" width="100%" alt="About: Parth Vaghela — Full-Stack Developer &amp; Flutter Developer.">
 
-<img src="assets/title-recognition.svg" width="100%" alt="02 Recognition — Proof, on the record.">
-<img src="assets/achievement-motif-v2.svg" width="100%" alt="Flipkart GRiD 7.0 National Semi-Finalist; Myntra WeForShe HackerRamp 2026 Top 100 Team; LeetCode; CodeChef; HackerRank 5 stars in C, Python and Java.">
-
-<img src="assets/title-work.svg" width="100%" alt="03 Selected work — Products, not assignments.">
+<img src="assets/title-work.svg" width="100%" alt="02 Selected work — Products, not assignments.">
 
 <img src="assets/project-policyguard-v2.svg" width="100%" alt="PolicyGuard AI: LLM Q&A and key-information extraction for 10+ document types across web, extension, mobile and desktop. 500+ documents processed, 92% accuracy, 60% less manual review time. Python, NLP, LLM, REST API.">
 
